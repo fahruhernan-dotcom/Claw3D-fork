@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server/index.js --dev",
     "dev:https": "node server/index.js --dev --https",
-    "hermes-adapter": "node server/hermes-gateway-adapter.js",
+    "hermes-adapter": "node server/vps-brain-adapter.js",
+    "vps-adapter": "node server/vps-brain-adapter.js",
     "demo-gateway": "node server/demo-gateway-adapter.js",
     "build": "next build",
     "start": "node server/index.js",
@@ -29,6 +30,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.563.0",
     "next": "16.1.7",
+    "pg": "^8.23.1",
     "phaser": "^3.90.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
